@@ -3,11 +3,11 @@ from botocore.exceptions import ClientError
 from io import BytesIO
 from typing import Optional, Union, Dict, Any
 from urllib.parse import urlparse
-from domain.base import MediaFile
-from domain.audiofile import AudioFile
-from domain.photofile imoprt PhotoFile
-from domain.videofile import VideoFile
-from infra.base import Storage
+from homework_04.domain.base import MediaFile
+from homework_04.domain.audiofile import AudioFile
+from homework_04.domain.photofile imoprt PhotoFile
+from homework_04.domain.videofile import VideoFile
+from homework_04.infra.base import Storage
 
 class S3Storage(Storage):
     """Класс для работы с S3-совместимыми хранилищами."""

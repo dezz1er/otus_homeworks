@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Optional
-from domain.base import MediaFile
+from homework_04.domain.base import MediaFile
 
 class Storage(ABC):
     """Абстрактный базовый класс для всех типов хранилищ."""

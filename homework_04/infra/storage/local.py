@@ -2,7 +2,7 @@ import shutil
 from pathlib import Path
 from typing import Optional
 from domain.base import MediaFile
-from infra.base import Storage
+from homework_04.infra.base import Storage
 
 class LocalStorage(Storage):
     """Класс для работы с локальным хранилищем файлов."""

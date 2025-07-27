@@ -1,7 +1,7 @@
 from datetime import datetime
 from .base import MediaFile
 from typing import Dict, Any
-from domain.base import MediaFile
+from homework_04.domain.base import MediaFile
 
 class VideoFile(MediaFile):
     """Класс для работы с видео файлами."""
